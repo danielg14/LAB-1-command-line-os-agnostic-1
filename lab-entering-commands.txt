@@ -15,8 +15,12 @@ Follow the instructions line-by-line.
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
-----------
-Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
+
+Applications		Library			Trovi
+Creative Cloud Files	Movies			Wine Files
+Desktop			Music			openBVE
+Documents		Pictures		楗敮䘠汩獥
+Downloads		PublicCode  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 
 
 ==========
@@ -25,19 +29,20 @@ Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 $ ls D<TAB>
 
 What happens?  Describe it below.
-----------
+ls D<TAB----------
 Desktop/    Documents/  Downloads/
+Pressing ls D then tab lists all the files that start with the letter D which are Desktop Documetns and Downloads
 
-
-==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
-----------
+
+Desktop/   Documents/ Downloads/
 rdrgeerwtger yg erwy brg
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
-----------
+
+It says No such file or directory 
 
 
 
@@ -47,8 +52,8 @@ rdrgeerwtger yg erwy brg
 $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
-----------
-
+drwxr-xr-x  4 daniel  staff    136 May 17  2020 Library
+drwxr-xr-x  2 daniel  staff     68 Aug 24  2015 MacKeeper Backups
 
 
 ==========
@@ -57,8 +62,8 @@ Copy and paste the first *two lines* of output below.
 $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
-----------
-
+.					MacKeeper Backups
+..					WebEx
 
 
 ==========
@@ -68,8 +73,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
-
+ls -a Documents
 
 ==========
 6.  Type:
@@ -78,7 +82,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -88,47 +92,54 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
+It shows a bunch of these different files
 
+[		df		launchctl	pwd		tcsh
+bash		domainname	link		rcp		test
+cat		echo		ln		rm		unlink
+chmod		ed		ls		rmdir		wait4path
+cp		expr		mkdir		sh		zsh
+csh		hostname	mv		sleep
+date		kill		pax		stty
+dd		ksh		ps		sync
 
-
-==========
 8.  Type:
 
 $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+<UP> key
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+-l and -a
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+TAB KEY
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+ls command
 
 
 ==========
@@ -138,9 +149,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
-
-
+-bash: foo: command not found
 ==========
 15.  Type:
 
@@ -148,8 +157,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
-
+-bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -158,3 +166,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+The command is: ls
+The flag is: -a
+The argument is: Desktop
+The prompt is: $ ls -a Desktop

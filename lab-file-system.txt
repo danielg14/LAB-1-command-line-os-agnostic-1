@@ -10,15 +10,15 @@ Follow the instructions line-by-line.
 ==========
 1. Open a new terminal window.
 ----------
-
+git bash opened
 ==========
 2. Create a directory called mtec1003.
 ----------
-
+Nothing happened
 ==========
 3. Change your directory so that you're in mtec1003.
 ----------
-
+mtec1003 folder
 ==========
 4. Type:
 
@@ -30,8 +30,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
-
+/Users/mtec1003
 
 ==========
 5. Type:
@@ -41,8 +40,16 @@ $ ls
 
 Copy and paste the output below.
 ----------
+animals: File exists
 
-
+Applications		Pictures		hello.txt
+Creative Cloud Files	Public			ls
+Desktop			Trovi			more
+Documents		Wine Files		mtec1003-lab-02
+Downloads		animals			openBVE
+Library			foo			stuff
+Movies			food			楗敮䘠汩獥
+Music			hello.text
 
 ==========
 6. Type:
@@ -52,8 +59,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
-
+mkdir: food: File exists
 
 ==========
 7. Type:
@@ -63,8 +69,16 @@ $ ls
 
 Copy and paste the output below.
 ----------
+Nothing happened for me
 
-
+Applications		Pictures		hello.txt
+Creative Cloud Files	Public			ls
+Desktop			Trovi			more
+Documents		Wine Files		mtec1003-lab-02
+Downloads		animals			openBVE
+Library			foo			stuff
+Movies			food			楗敮䘠汩獥
+Music			hello.text
 
 ==========
 8. Type:
@@ -74,9 +88,9 @@ $ pwd
 
 Copy and paste the output below.
 ----------
+qux mtec1003$ 
 
-
-
+/Users/mtech1003/foo/bar/baz/qux
 ==========
 9. Type:
 
@@ -85,8 +99,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
+/c/Users/user/mtec1003/foo/bar
 
 ==========
 10. Type:
@@ -96,8 +109,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
+/Users/mtec1003/foo/bar/baz/qux
  
 ==========
 11. Type:
@@ -107,7 +119,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/mtec1003
 
 
 ==========
@@ -119,7 +131,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
+drwx------    8 daniel  staff    272 Aug 31 10:10 Applications
+drwx------@   3 daniel  staff    102 Jan 21  2015 Creative Cloud Files
 
 
 ==========
@@ -130,7 +143,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/daniel
 
 
 ==========
@@ -141,6 +154,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+Daniels-MBP:Volumes daniel$ 
 
 
 
@@ -152,8 +166,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
+-bash: cd: /unknown_folder: No such file or directory
 
 ==========
 15. Type:
@@ -163,13 +176,13 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+-bash: cd: /Users/daniel/mtec1003: No such file or directory
 
 
 ==========
 16a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+pwd
 
 
 ==========
@@ -192,15 +205,14 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
-
+$ mkdir -p pineapple/orange/strawbery/lemon
 
 ==========
 18. Make another directory called aardvark.  
 
 Write the command you used to create the directory below:
 ----------
-
+$mkdir aardvark
 
 
 ==========
@@ -208,8 +220,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
-
+Oct  12 18:41 
 
 ==========
 20. Make 3 directories nested within each other:
@@ -220,60 +231,58 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
-
+$ mkdir -p foo/bar/baz/bar
 
 ==========
 21. Change your directory so that you're in the inner most directory (baz)
 
 What command did you use?
 ----------
-
-
+cd foo/bar/baz
 
 ==========
 22. Change your directory so that you're two directories up (foo)
 
 What command did you use?
 ----------
-
-
+cd ../..
 ==========
 23. What command is used to delete empty directories?
 ----------
-
+rmdir
 
 
 ==========
 24. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 ==========
 25. What flag do I pass to ls to print out all files?
 ----------
-
+-l
 
 
 ==========
 26. What's the shortcut for home directory?
 ----------
-
+cd ~
 
 
 ==========
 27. What's a pathname?
 ----------
-
+name of the folder you are in
 
 
 ==========
 28. What's a directory?
 ----------
-
+the folder
 
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/
